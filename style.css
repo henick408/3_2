@@ -3,6 +3,29 @@ body {
   margin: 20px;
 }
 
+h2 {
+  margin-bottom: 20px;
+}
+
+/* Formularz */
+form {
+  margin-bottom: 20px;
+}
+
+label {
+  margin-right: 15px;
+  font-size: 14px;
+}
+
+input[type="text"],
+input[type="date"] {
+  padding: 6px 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-left: 5px;
+}
+
+/* Przycisk */
 button {
   padding: 10px 20px;
   background-color: #0077cc;
@@ -10,12 +33,14 @@ button {
   border: none;
   cursor: pointer;
   border-radius: 4px;
+  font-size: 14px;
 }
 
 button:hover {
   background-color: #005fa3;
 }
 
+/* Tabela */
 table {
   width: 100%;
   border-collapse: collapse;
@@ -29,10 +54,10 @@ th, td {
 }
 
 th {
-  background: #eee;
+  background-color: #eee;
   font-weight: bold;
 }
 
 tr:nth-child(even) {
-  background: #f9f9f9;
+  background-color: #f9f9f9;
 }

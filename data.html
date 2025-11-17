@@ -1,0 +1,37 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data z parametrami</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>NOAA – Dane klimatyczne</h2>
+
+<form id="dataForm">
+  <label>Dataset ID: <input type="text" name="datasetid" value="GHCND"></label>
+  <label>Location ID: <input type="text" name="locationid" value="ZIP:28801"></label>
+  <label>Start date: <input type="date" name="startdate" value="2010-05-01"></label>
+  <label>End date: <input type="date" name="enddate" value="2010-05-01"></label>
+  <button type="submit">Pobierz dane</button>
+</form>
+
+<table id="dataTable">
+  <thead>
+    <tr>
+      <th>Station</th>
+      <th>Datatype</th>
+      <th>Date</th>
+      <th>Value</th>
+    </tr>
+  </thead>
+  <tbody></tbody>
+</table>
+
+<script src="data.js"></script>
+
+</body>
+</html>
